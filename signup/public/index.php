@@ -38,7 +38,8 @@ include_once 'templates/header.php';
           <div class="col-sm">
            <input class="modal-input" type="text" id="modalSponsorName" name="sponsorName" readonly> 
           </div>
-        </div>   -->
+        </div>   
+-->
           <div class="form-group">
             <label for="" class="font-weight-bold">Your Sponsor's Name</label>
             <input class="modal-input" type="text" id="modalSponsorName" name="sponsorName" readonly>
@@ -50,7 +51,8 @@ include_once 'templates/header.php';
           <div class="col-sm">
            <input type="text" class="modal-input" id="modalSponsorCompany" name="sponsorCompany" readonly> 
           </div>
-        </div>   --> 
+        </div>   
+--> 
           <div class="form-group">
             <label for="" class="font-weight-bold">Your Sponsor's Company</label>
             <input class="modal-input" type="text" id="modalSponsorCompany" name="sponsorCompany" readonly>
@@ -63,7 +65,8 @@ include_once 'templates/header.php';
           <div class="col-sm">
            <input type="text" class="modal-input" name="sponsorScreenID" id="modalSponsorScreenID" readonly> 
           </div>
-        </div>  -->  
+        </div>  
+-->  
           <div class="form-group">
             <label for="" class="font-weight-bold">Your Sponsor's ScreenID</label>
             <input class="modal-input" type="text" id="modalSponsorScreenID" name="sponsorScreenID" readonly>
@@ -75,7 +78,8 @@ include_once 'templates/header.php';
           <div class="col-sm">
             <input type="text" class="modal-input" name="countryName" id="modalCountryResidency" readonly> 
           </div>
-        </div> -->
+        </div> 
+-->
           <div class="form-group">
             <label for="" class="font-weight-bold">Country in which you reside</label>
             <input class="modal-input" type="text" id="modalCountryCodeResidency" name="countryCode" readonly>            
@@ -92,7 +96,8 @@ include_once 'templates/header.php';
 </div>
 
 
-<!-- <script
+<!-- 
+<script
   src="https://code.jquery.com/jquery-3.3.1.js"
   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
   crossorigin="anonymous"></script>

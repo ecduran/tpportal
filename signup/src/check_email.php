@@ -19,21 +19,21 @@ $results = $affiliate->checkEmailAdd();
 
 
 if ( !(filter_var($q, FILTER_VALIDATE_EMAIL) && preg_match('/@.+\./', $q) ) )
-{
+	{
 
-	echo "<p class='font-weight-bold'>Invalid email. Try another one.</p>";
+		echo "<p class='font-weight-bold'>Invalid email. Try another one.</p>";
 	
 
-}
+	}
 else if ($results > 0)
-{
+	{
 
-	echo "<p class='font-weight-bold'>Email is already taken.</p>";
+		echo "<p class='font-weight-bold'>Email is already taken.</p>";
 
-}
+	}
 else
-{
+	{
 
-	echo "<p class='font-weight-bold text-success'>Available Email!</p>";
+		echo "<p class='font-weight-bold text-success'>Available Email!</p>";
 
-}
+	}
